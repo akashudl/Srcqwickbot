@@ -28,7 +28,7 @@ class App extends Component
     <div className="App">
       <Router>
       <> 
-        <HeaderComponent/>
+        <HeadeNew/>
       <Switch>
         <Route path="/" exact component={GoogleLogin}/>
         <Route path="/Login" component={GoogleLogin}/>
